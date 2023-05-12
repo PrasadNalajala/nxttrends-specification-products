@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.product_image {
+  border-radius: 10px;
+}
+.image {
+  width: 350px;
+  border-radius: 10px;
+  height: 500px;
+}
+.bg {
+  display: flex;
+  flex-direction: row;
+
+  padding: 30px;
+}
+.span {
+  color: #616e7c;
+  font-weight: normal;
+}
+.available {
+  color: #171f46;
+  font-weight: bold;
+}
+.description {
+  width: 500px;
+  color: #616e7c;
+}
+.product_details {
+  margin-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+.product_details_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.product_title {
+  color: #171f46;
+}
+.product_price {
+  color: #171f46;
+}
+* {
+  font-family: 'Roboto';
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  height: 30px;
+  border-radius: 5px;
+  width: 50px;
+  background-color: #3b82fc;
+}
+.star {
+  height: 20px;
+}
+.rating_container {
+  display: flex;
+
+  align-items: center;
+}
+hr {
+  width: 500px;
+}
+.count_container {
+  display: flex;
+  align-items: center;
+}
+.counter {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.addBtn {
+  background-color: #3b82fc;
+  border-style: none;
+  color: #ffffff;
+  padding: 7px;
+  width: 90px;
+  border-radius: 4px;
+}
+.similar_products {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+.similar_heading {
+  margin-left: 15px;
+}

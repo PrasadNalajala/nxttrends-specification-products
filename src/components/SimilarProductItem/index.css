@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.img {
+  height: 140px;
+  width: 150px;
+}
+.rating_container {
+  background-color: #3b82fc;
+  width: fit-content;
+  color: #ffff;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border-radius: 5px;
+}
+.price_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.similar-product {
+  width: 150px;
+  margin-left: 10px;
+}
